@@ -18,3 +18,9 @@ print(np.eye(4,5,k=2))
 #5 rows 5 columns, diagnal index = 3
 print(np.eye(5,5,k=3))
 
+#2 rows 5 columns filled with 7
+print(np.full((2,5), 7))
+
+#3 rows 7 columns 0-1 random number
+print(np.random.rand(3,7))
+

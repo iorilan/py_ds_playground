@@ -10,6 +10,6 @@ arr = np.array([
     [4,5,6]
 ])
 print(np.transpose(arr))
-
+print(arr.T) # same as transpose
 # flatten
 print(arr.flatten())

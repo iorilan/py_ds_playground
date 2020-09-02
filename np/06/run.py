@@ -6,11 +6,17 @@ import numpy as np
 
 def show_res(a,b):
     print(np.add(a,b))
+    print(a+b)
     print(np.subtract(a,b))
+    print(a-b)
     print(np.multiply(a,b))
+    print(a*b)
     print(np.divide(a,b))
+    print(a/b)
     print(np.mod(a,b))
+    print(a%b)
     print(np.power(a,b))
+    print(a**b)
 
 show_res(np.array([1,2,3]),np.array([4,5,6]))
 
