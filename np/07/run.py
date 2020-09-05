@@ -1,3 +1,6 @@
+"""
+    max min mean var std prod sum where 
+"""
 import numpy as np
 arr = np.array([
     [1,2,3],
@@ -38,3 +41,14 @@ print(np.var(arr))
 print(np.std(arr, axis=1))
 print(np.std(arr, axis=0))
 print(np.std(arr))
+
+
+# [[-1  0 -1  0 -1  0 -1  0 -1]
+#  [-1 -1 -1 -1 -1 -1 -1  0 -1]
+#  [ 0  0  0  0  0  0  0  0  0]]
+M=np.array([
+    [1,2,3,4,5,6,7,8,9],
+    [11,21,31,41,51,61,71,82,91],
+    [12,22,32,42,52,62,72,82,92]
+    ])
+print(np.where(M%2==0, 0, -1))
