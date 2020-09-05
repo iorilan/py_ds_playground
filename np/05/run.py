@@ -40,11 +40,14 @@ Z.sort()
 print(Z)
 
 print("================randint===============")
-A = np.random.randint(0,2,(2,2))
-B = np.random.randint(0,2,(2,2))
+A = np.random.randint(0,3,(2,3))
+B = np.random.randint(0,3,(2,3))
 print(A)
 print(B)
 print(np.allclose(A,B))
+
+print("================randomsample===============")
+print(np.random.random_sample(size =(2, 3)) )
 
 
 print("================diag===============")
@@ -53,6 +56,7 @@ print("================diag===============")
 #  [0 0 3]]
 print(np.diag(1+np.arange(3),k=0))
 
+#all diag element index start from 1, diag column = 2
 # [[0 0 1 0 0 0 0]
 #  [0 0 0 2 0 0 0]
 #  [0 0 0 0 3 0 0]
